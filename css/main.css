@@ -10,9 +10,9 @@
 }
 
 .bg-cust-light {
- /*background-color: #FFC300 !important;*/
+ background-color: #FFC300 !important;
  /* 235, 133, 0 of above */
- background-color: #CC9C00 !important;
+ /*background-color: #CC9C00 !important;*/
  /* 204, 156, 0 of above */
 }
 .bg-blue {
@@ -316,6 +316,10 @@ D600E8 214, 0, 232*/
   /*text-shadow: 1px 1px 0px rgba(255,255,255,0.5)*/
   text-shadow: 0px 0px 0px rgba(255, 195, 0, 0.75)
 }
+.light-vivid {
+  /*text-shadow: 1px 1px 0px rgba(255,255,255,0.5)*/
+  text-shadow: 0px 0px 0px rgba(235, 133, 0 , 0.75)
+}
 .nav-link-cust:hover, .nav-link-cust:focus {
   color: rgba(255, 195, 0, 0.85);
 
@@ -337,4 +341,13 @@ D600E8 214, 0, 232*/
 
 .nav-link-cust:hover, .nav-link-cust:focus {
   text-decoration: none;
+}
+
+/*.navbar-brand, .navbar-nav > li > a {
+  text-shadow: unset;
+  text-shadow: 0px 0px 0px rgba(255, 195, 0, 0.75);
+}*/
+
+.navbar-brand,.navbar-nav>li>a {
+  text-shadow:0 1px 0 rgba(255,255,255,.25);
 }
